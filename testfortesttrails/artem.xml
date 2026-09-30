@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Зв’язатися з нами</name>
+		<description>Форма та блок Зв’язатись з нами на https://zezman.ua/ua</description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>[Позитивний] Відображення блоку «Зв’язатись з нами» на головній</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито браузер. Сайт zezman.ua доступний.</preconds>
+											<steps_separated><step>
+<content>Відкрити https://zezman.ua/ua</content><expected>Відкривається головна сторінка українською мовою.</expected></step>
+<step>
+<content>Прокрутити сторінку до секції CONTACT US.</content><expected>Видно заголовок «Зв’язатись з нами», посилання «Форма зворотнього зв’язку», телефони +38 048 701 02 88, +44 (330) 533-01-15 і +972 3-762-15-98, email office@zezman.ua, адресу вул. Кіри Муратової (мин. Л. Толстого), 20 і графік Пн.–Нд. 9:00–18:00.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C2</id>
+				<title>[Позитивний] Перехід до форми з блоку «Зв’язатись з нами»</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито головну сторінку https://zezman.ua/ua</preconds>
+											<steps_separated><step>
+<content>У блоці «Зв’язатись з нами» натиснути «Форма зворотнього зв’язку».</content><expected>Відкривається https://zezman.ua/contacts/. Видно заголовок «Маєте пропозицію або хочете звернутись до нас?» і форму звернення.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C3</id>
+				<title>[Позитивний] Успішне надсилання звернення «Загальні питання»</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито https://zezman.ua/contacts/. Для перевірки використовувати явно тестові дані.</preconds>
+											<steps_separated><step>
+<content>Натиснути напрямок «Загальні питання».</content><expected>Напрямок активний, форма видима.</expected></step>
+<step>
+<content>Заповнити ім’я «Тест Користувач», телефон «38(050)123-45-67», email «test.user@example.com», повідомлення «Тестове звернення, прохання не обробляти».</content><expected>Значення відображаються в полях. Телефон має 17 символів у форматі маски.</expected></step>
+<step>
+<content>Увімкнути згоду з політикою конфіденційності і натиснути «Відправити».</content><expected>Форма приймається без помилок валідації і показує підтвердження успішного надсилання.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C4</id>
+				<title>[Позитивний] Надсилання лише з обов’язковими полями</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито форму на https://zezman.ua/contacts/</preconds>
+											<steps_separated><step>
+<content>Обрати будь-який напрямок. Залишити порожніми ім’я, повідомлення і файл.</content><expected>Необов’язкові поля можна не заповнювати.</expected></step>
+<step>
+<content>Ввести телефон «38(067)111-22-33», email «qa.contact@example.com», увімкнути згоду і натиснути «Відправити».</content><expected>Форма надсилається: обов’язкові лише телефон, email і згода.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C5</id>
+				<title>[Позитивний] Перемикання напрямків звернення</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито https://zezman.ua/contacts/</preconds>
+											<steps_separated><step>
+<content>По черзі натиснути «Хочу інвестувати», «Комерційна пропозиція», «Вакансії», «Маркетинг», «Земельні ділянки», «Загальні питання».</content><expected>Для кожного напрямку видно поля Ім’я, Номер телефону*, Email*, Повідомлення, Прикріпити документ, згоду і кнопку «Відправити». Активний напрямок виділений.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C6</id>
+				<title>[Позитивний] Прикріплення документа розміром до 15 МБ</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Є файл PDF або DOC розміром менше 15 МБ. Обов’язкові поля форми можна заповнити валідними тестовими даними.</preconds>
+											<steps_separated><step>
+<content>Заповнити телефон, email і згоду. Прикріпити файл менше 15 МБ і натиснути «Відправити».</content><expected>Ім’я файлу видно в полі. Повідомлення про перевищення розміру немає. Форма надсилається.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C7</id>
+				<title>[Позитивний] Прикріплення кількох документів</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Є два файли, кожен менше 15 МБ. Відкрито форму контактів.</preconds>
+											<steps_separated><step>
+<content>У полі «Прикріпити документ» обрати два файли.</content><expected>Поле приймає кілька файлів. Обидва імена відображаються.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C8</id>
+				<title>[Позитивний] Телефон офісу відкриває дзвінок</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито https://zezman.ua/contacts/</preconds>
+											<steps_separated><step>
+<content>Натиснути номер «+38 048 701 02 88» у блоці офісу.</content><expected>Посилання має адресу tel:+380487010288.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C9</id>
+				<title>[Позитивний] Email офісу відкриває лист</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито сторінку контактів або головну сторінку zezman.ua.</preconds>
+											<steps_separated><step>
+<content>Натиснути «office@zezman.ua».</content><expected>Посилання має адресу mailto:office@zezman.ua.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C10</id>
+				<title>[Позитивний] Перехід до політики конфіденційності з форми</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито форму на https://zezman.ua/contacts/</preconds>
+											<steps_separated><step>
+<content>У тексті згоди натиснути «Політикою конфіденційності».</content><expected>Відкривається сторінка політики за адресою /politika-konfidenchiinosti/.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C11</id>
+				<title>[Негативний] Відправка порожньої форми</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито https://zezman.ua/contacts/. Поля форми порожні, згода не ввімкнена.</preconds>
+											<steps_separated><step>
+<content>Натиснути «Відправити», нічого не заповнюючи.</content><expected>Форма не надсилається. Фокус переходить на телефон. Підказка: «Введіть правильний номер телефону». Для email показується «Необхідно заповнити поле».</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C12</id>
+				<title>[Негативний] Некоректний номер телефону</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито форму контактів.</preconds>
+											<steps_separated><step>
+<content>Ввести телефон «12345», валідний email, увімкнути згоду і натиснути «Відправити». Потім повторити з значенням «abcdef».</content><expected>Обидва значення відхиляються з підказкою «Введіть правильний номер телефону». Допустимий формат: 16–17 символів із цифр, плюса, дефіса і дужок, наприклад 38(050)123-45-67. Форма не надсилається.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C13</id>
+				<title>[Негативний] Некоректний email</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито форму контактів.</preconds>
+											<steps_separated><step>
+<content>Ввести телефон «38(050)123-45-67», email «not-an-email», увімкнути згоду і натиснути «Відправити».</content><expected>Email не приймається. Форма не надсилається.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C14</id>
+				<title>[Негативний] Відправка без згоди на обробку даних</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Відкрито форму контактів.</preconds>
+											<steps_separated><step>
+<content>Заповнити валідні телефон і email. Згоду не вмикати. Натиснути «Відправити».</content><expected>Форма не надсилається, бо згода з політикою конфіденційності обов’язкова.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C15</id>
+				<title>[Негативний] Файл більший за 15 МБ</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references>https://zezman.ua/contacts/</references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>Є файл розміром більше 15 МБ. Відкрито форму контактів.</preconds>
+											<steps_separated><step>
+<content>Заповнити обов’язкові поля і згоду, прикріпити файл більше 15 МБ і натиснути «Відправити».</content><expected>З’являється повідомлення «Цього файлу перевищує максимально дозволений розмір.». Форма з цим файлом не надсилається.</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
