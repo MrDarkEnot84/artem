@@ -1,0 +1,12 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004614	qa6162	General	public	2026-09-29 15:01	2026-09-29 15:01
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	low	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004614: Логотипи Android та iOS не завантажуються
+Description	Іконки в картці «Розробка мобільних додатків» мають alt="Logo", але файли віддають HTTP 404 і HTML замість зображення. naturalWidth дорівнює 0, на місці іконок порожньо. URL: /wp-content/uploads/webp/logoAndroid….webp і logoiOS….webp
+Steps To Reproduce	1)Відкрити https://avada-media.ua/
+2)Знайти картку «Розробка мобільних додатків»
+3)Перевірити іконки Android та iOS і відповіді їхніх URL
+Additional Information	https://gyazo.com/a6b11577eea36f8cc60396fba0a6fd36

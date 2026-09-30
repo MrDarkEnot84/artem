@@ -1,0 +1,13 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004611	qa6162	General	public	2026-09-29 14:43	2026-09-29 14:43
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	normal	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrom	OS Version	Версия: 153.0.80	 
+Summary	0004611: На українській головній лишились англійські слова
+Description	На сторінці з lang=uk-UA видно слово Presents біля рядка про компанію, заголовок секції Experience і напис Play (білий текст, 15px) у першій картці статистики замість числа
+Steps To Reproduce	1)Відкрити https://avada-media.ua/
+2)Переглянути блок про компанію
+3)Переглянути секцію технологій
+4)Переглянути першу картку в блоці статистики «Хто ми»
+Additional Information	https://gyazo.com/bed60917f96e09462611f22554356e17

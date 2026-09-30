@@ -1,0 +1,13 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004610	qa6162	General	public	2026-09-29 14:36	2026-09-29 14:36
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	normal	Severity	minor	Reproducibility	have not tried
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004610: Український URL відкривається англійською версією
+Description	 Перехід з української головної на Портфоліо завершився на англійськомовному сайті із заголовком Portfolio.Шлях /this-page-should-404-qa/ відкрився як /en/this-page-should-404-qa/ з текстом Page not found. Чистий HTTP-запит без cookie лишає /portfolio/ українським (lang=uk-UA). Сервер ставить cookie qtrans_front_language на 1 рік
+Steps To Reproduce	1)Відкрити https://avada-media.ua/
+2)Перейти в «Портфоліо»
+3)Окремо відкрити https://avada-media.ua/this-page-should-404-qa/
+4)Порівняти мову інтерфейсу і фінальний URL
+Additional Information	https://gyazo.com/f96cae7276c174c0b8ff449aca9f0bdf

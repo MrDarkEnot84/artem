@@ -1,0 +1,12 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004609	qa6162	General	public	2026-09-29 14:27	2026-09-29 14:27
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	normal	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004609: Число «2» суперечить підпису «3 власних продукту»
+Description	У блоці «Хто ми» картка статистики показує число 2 і підпис «3 власних продукту», число і підпис описують одне й те саме.
+Steps To Reproduce	1)Відкрити https://avada-media.ua/.
+2)Прокрутити до блоку «Хто ми» під "Портфоліо"
+3)Порівняти число і підпис на картці про власні продукти, знаходиться на візуально на 7 планеті
+Additional Information	https://gyazo.com/61e17925663ee57b38a3f47a1f978b3d

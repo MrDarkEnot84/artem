@@ -1,0 +1,13 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004613	qa6162	General	public	2026-09-29 14:54	2026-09-29 14:54
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	low	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004613: У підписі футера окреме посилання з літерою «u»
+Description	Рядок «Розроблено в AVADA-MEDIA» під Картою сайта написаний чорним шрифтом на чорному фоні містить окреме посилання, видимий текст якого — лише літера u. Воно веде на /ua/. Цей шлях відповідає 301 і відкриває головну.
+Steps To Reproduce	1)Відкрити https://avada-media.ua/
+2)Прокрутити до футера
+3)Знайти рядок «Розроблено в AVADA-MEDIA» під Картою сайта написаний чорним шрифтом на чорному фоні
+4)Натиснути літеру u і подивитися фінальний URL
+Additional Information	https://gyazo.com/e62a82e9079bb784d8fd7fc541bc97a5

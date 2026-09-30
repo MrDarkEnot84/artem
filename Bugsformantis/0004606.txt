@@ -1,0 +1,12 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004606	qa6162	General	public	2026-09-29 13:39	2026-09-29 13:39
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	normal	Severity	minor	Reproducibility	sometimes
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004606: З головної сторінки на перехід категорію "Портфоліо" переключається з української на англійську мову
+Description	На головній сторінці https://avada-media.ua/ на українській мові на хедері нажимаємо на хедері категорію "Портфоліо" і автоматично переходить на англійську мову
+Steps To Reproduce	1)Зайти на сайт https://avada-media.ua/
+2)На хедері справа за значком "Пошук" переключити на українську мову
+3)На хедері посередині нажати на категорію "Портфоліо"
+Additional Information	https://gyazo.com/0aa574b14048ed79f907a78d7fc94c04

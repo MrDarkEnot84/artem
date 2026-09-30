@@ -1,0 +1,11 @@
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	low	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004608: На сайті в категорії "Квиткова система "PartyTicket"" заговолок написано російською мовою на українській мові сайту
+Description	На сайті в категорії "Квиткова система "PartyTicket"" заговолок написано російською мовою на українській мові сайту
+Steps To Reproduce	1)Зайти на сайт https://avada-media.ua/portfolio/partyticket/
+2)Подивитисья назву заголовки під відео
+3)На хедері справа за значком "Пошук" переключити на російську
+4)Подивитисья Подивитисья назву заголовки під відео
+Additional Information	https://gyazo.com/cbef23724d08a0dcc5996051e37c9b33

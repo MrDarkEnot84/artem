@@ -1,0 +1,14 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004607	qa6162	General	public	2026-09-29 13:51	2026-09-29 13:51
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	normal	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004607: На футері сайту в "З'явилися питання?" можна ввести будь-який мобільний номер і e-mail
+Description	На футері сайту в "З'явилися питання?" можна ввести будь-який мобільний номер і e-mail. Не пише, що невірно введений мобільний номер или e-mail
+Steps To Reproduce	1)Зайти на сайт https://avada-media.ua/
+2)Прокрутити сайт до самого низу, до футера
+3)Під "З'явилися питання?" ввести мобільний телефон - 14634267843, email - sadwq@gtre.com, Telegram - uhfhiwe3, питання - щйшцрвшгр2, ПІБ - 8713пва7уанцсп, ваше питання - гшрауйнцац
+4)Прийняти угоду користувача
+5)Надіслати
+Additional Information	https://gyazo.com/2177e28018e062250e7f9c3073fd9b55

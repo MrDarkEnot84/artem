@@ -1,0 +1,13 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004612	qa6162	General	public	2026-09-29 14:47	2026-09-29 14:48
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	low	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004612: На сайті дві різні пошти без пояснення ролі
+Description	 У футері публічна адреса office@avada-media.com.ua. У тексті згоди адреса для запиту на припинення обробки даних — info@avada-media.com.ua. Ролі скриньок ніде не підписані
+Steps To Reproduce	1)Відкрити https://avada-media.ua/.
+2)У футері прочитати E-mail.
+3)Відкрити текст згоди на обробку персональних даних.
+4)Порівняти email у пункті про припинення обробки з адресою у футері.
+Additional Information	https://gyazo.com/7eb679c47434bba4db9c8885299e3229

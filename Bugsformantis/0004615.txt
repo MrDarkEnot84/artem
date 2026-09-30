@@ -1,0 +1,13 @@
+ID	Project	Category	View Status	Date Submitted	Last Update
+0004615	qa6162	General	public	2026-09-29 15:12	2026-09-29 15:12
+Reporter	MrDarkEnot 	Assigned To		 
+Priority	low	Severity	minor	Reproducibility	always
+Status	 new	Resolution	open	 
+Platform	Google Chrome	OS Version	Версия: 153.0.80	 
+Summary	0004615: Англійськомовний сайт на вакансії показує помлку 404
+Description	 Пряме відкриття https://avada-media.ua/en/vacancies/ показує Page not found. Якщо в категорії Компанія>Вакансії зайти на нього, то відображається нормально
+Steps To Reproduce	1)Відкрити https://avada-media.ua/en/vacancies/
+2)Зафіксувати статус і заголовок сторінки
+3)На англійській версії натиснути пункт Vacancies під Company і порівняти URL
+Additional Information	https://gyazo.com/6e3d7181293d6d9f44a9cc831a647df4
+https://gyazo.com/80e304e76edece87b467f9b9736b93a3
